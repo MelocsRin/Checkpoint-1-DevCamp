@@ -1,0 +1,87 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+}
+
+.first-child {
+    background-color: red;
+}
+
+.second-child {
+    background-color: blue;
+}
+
+.third-child {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    grid-template-rows: 1fr 3fr;
+}
+
+.gridThree {
+    background-color: lightgray;
+}
+
+
+.gridThree img {
+    width: 500px;
+    height: 225px; 
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gridFour {
+    background-color: green;
+    width: 500px;
+}
+
+#unique {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: green;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.gridFive {
+    background-color: lightgreen;
+    width: 500px;
+}
+
+#fifth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.gridSix {
+    background-color: lightgray;
+    width: 500px;
+    font-family: "Montserrat", serif;
+}
